@@ -1,0 +1,13 @@
+"""This file imports the Point class and creates a Point object."""
+
+
+from lessons.CQ07.point import Point
+
+
+my_point: Point = Point(12.0, 14.0)
+
+
+my_point.scale_by(3)
+
+
+your_point = my_point.scale(4)
